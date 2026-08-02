@@ -13,7 +13,8 @@
   --ink: #351014;
   --serif: "Cormorant Garamond", Georgia, serif;
   --formal: "Cinzel", Georgia, serif;
-  --script: "Great Vibes", cursive;
+  --script: "Sharon Minari", cursive;
+  --scriptlogo: cursive;
 }
 
 * { box-sizing: border-box; }
@@ -335,7 +336,7 @@ blockquote { margin:12px 0 20px; font:italic 500 clamp(2rem,5vw,3.6rem)/1.2 var(
 .rsvp-form .gold-button { justify-self:start; border:0; }
 .form-status { margin:0; color:var(--gold-300); }
 .site-footer { padding:70px 24px; text-align:center; color:var(--gold-100); background:#230105; }
-.footer-seal { width:80px; aspect-ratio:1; display:grid; place-items:center; margin:0 auto 20px; border:1px solid var(--gold-500); border-radius:50%; color:var(--gold-300); font:500 1.2rem/1 var(--script); }
+.footer-seal { width:80px; aspect-ratio:1; display:grid; place-items:center; margin:0 auto 20px; border:1px solid var(--gold-500); border-radius:50%; color:var(--gold-300); font:500 1.2rem/1 var(--scriptlogo); }
 .site-footer p { margin:4px 0; }
 .footer-date { color:var(--gold-300); font-style:italic; }
 .site-footer > span { display:block; width:55px; height:1px; margin:22px auto; background:var(--gold-700); }
