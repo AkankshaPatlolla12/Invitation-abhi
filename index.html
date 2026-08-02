@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#52070d" />
+  <meta name="description" content="Wedding invitation for Abhishek and Alekya" />
+  <title>Abhishek & Alekya | Wedding Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Great+Vibes&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="intro-active">
+
+  <!-- FULL-SCREEN ENVELOPE INTRO -->
+  <section class="envelope-intro" id="envelopeIntro" aria-label="Open wedding invitation">
+    <button class="envelope-canvas" id="openInvitation" type="button" aria-label="Open the wedding invitation">
+      <span class="intro-paper" aria-hidden="true">
+        <span class="paper-texture"></span>
+        <span class="intro-message">
+          <span class="intro-script">Welcome</span>
+          <span class="intro-title">TO THE WEDDING OF</span>
+          <span class="intro-couple">Abhishek <em>&amp;</em> Alekya</span>
+          <span class="intro-date">26 · 08 · 2026</span>
+        </span>
+      </span>
+
+      <span class="envelope-panel panel-top" aria-hidden="true"></span>
+      <span class="envelope-panel panel-right" aria-hidden="true"></span>
+      <span class="envelope-panel panel-bottom" aria-hidden="true"></span>
+      <span class="envelope-panel panel-left" aria-hidden="true"></span>
+
+      <span class="center-seam seam-one" aria-hidden="true"></span>
+      <span class="center-seam seam-two" aria-hidden="true"></span>
+
+      <span class="wax-seal" aria-hidden="true">
+        
+      </span>
+
+      <span class="click-hint">Tap the seal to open</span>
+    </button>
+
+    <button class="skip-intro" id="skipIntro" type="button">Skip intro</button>
+  </section>
+
+  <!-- MAIN WEBSITE -->
+  <div class="site-shell" id="siteShell" aria-hidden="true">
+    <header class="site-header">
+      <a class="logo" href="#home" aria-label="Abhishek and Alekya home">A &amp; A</a>
+      <!-- <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+        <a href="#story">Our Story</a>
+        <a href="#events">Events</a>
+        <a href="#venue">Venue</a>
+      </nav> -->
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-pattern"></div>
+        <div class="hero-frame reveal">
+          <p class="eyebrow" style="font-size: 18px">Together with their families</p>
+          <p class="invitation-copy" style="font-size: 18px">With immense joy and gratitude, we invite you to join us as we begin a new chapter surrounded by the love and blessings of our family and friends.</p>
+          <br/>
+          <h1 class="hero-names">
+            <span>Abhishek</span>
+            <em>&amp;</em>
+            <span>Alekya</span>
+          </h1>
+
+          <div class="ornament"><span></span><b>✦</b><span></span></div>
+
+          <!-- <div class="container narrow reveal">
+            <p class="section-kicker">A celebration of love</p>
+            <div class="mini-ornament">✦</div>
+            <p class="lead">With immense joy and gratitude, we invite you to join us as we begin a new chapter surrounded by the love and blessings of our family and friends.</p>
+          </div> -->
+
+          <a class="gold-button" href="#events">View the Celebration</a>
+        </div>
+        <a class="scroll-cue" href="#welcome" aria-label="Scroll to invitation details"><span>Scroll</span><i></i></a>
+      </section>
+
+      <section class="section story-section" id="story">
+        <div class="container story-grid">
+          <div class="story-art reveal">
+            <div class="photo-placeholder couple-photo-area">
+              <img
+                src="assets/couple-sticker.png"
+                alt="Abhishek and Alekya"
+                class="couple-sticker"
+              >
+            </div>
+          </div>
+          <div class="story-copy reveal">
+            <p class="section-kicker">Our story</p>
+            <h2>Written in the Stars</h2>
+            <div class="mini-ornament left">✦</div>
+            <p>What began as a beautiful meeting grew into a friendship, a partnership, and a love that feels like home.</p>
+            <p>As we step into this new beginning, we would be honored to have you beside us, sharing in the joy, traditions, laughter, and memories of our wedding.</p>
+            <p class="signature">Abhishek &amp; Alekya</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section countdown-section">
+        <div class="container narrow reveal">
+          <p class="section-kicker light">Counting down to forever</p>
+          <h2 class="light">Save the Date</h2>
+          <div class="countdown" aria-label="Wedding countdown">
+            <div><strong id="days">00</strong><span>Days</span></div>
+            <div><strong id="hours">00</strong><span>Hours</span></div>
+            <div><strong id="minutes">00</strong><span>Minutes</span></div>
+            <div><strong id="seconds">00</strong><span>Seconds</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section events-section" id="events">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker">Wedding festivities</p>
+            <h2>Celebrate With Us</h2>
+            <div class="mini-ornament">✦</div>
+          </div>
+
+          <div class="event-grid">
+            <article class="event-card reveal">
+              <span class="event-symbol">❈</span>
+              <p class="event-day">Monday</p>
+              <h3>Haldi Hues</h3>
+              <p>August 17, 2026</p>
+              <p>3:00 PM</p>
+            </br>
+              <small>Dress Code:</small>
+              <strong>Shades of Haldi (Yellow or Mustard)</strong>
+              <div class="mini-ornament">✦</div>
+              <h3>Sangeet Soire</h3>
+              <p>August 17, 2026</p>
+              <p>7:00 PM</p>
+              <hr />
+              <h3>The Village Arc</h3>
+              <a
+              href="https://maps.app.goo.gl/kZWN5d1FCKf2rLev8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="gold-button"
+          >
+              Open in Maps
+          </a>
+            </article>
+
+            <article class="event-card reveal">
+              <span class="event-symbol">❈</span>
+              <p class="event-day">Monday</p>
+              <h3>Pellikoduku Event</h3>
+              <p>August 24, 2026</p>
+              <p>10:00 AM</p>
+              <hr />
+              <h3>Giridhari Rajakshetra</h3>
+            
+              <a
+              href="https://maps.app.goo.gl/EEtzQzaajh7jugR3A"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="gold-button"
+          >
+              Open in Maps
+          </a>
+            </article>
+
+            <article class="event-card featured reveal">
+              <span class="event-symbol">♔</span>
+              <p class="event-day">Wednesday</p>
+              <h3>The Wedding</h3>
+              <p>August 26, 2026</p>
+              <p>11:16 AM</p>
+              <hr />
+              <h3>VMR Convention Hall</h3>
+
+                        <p>
+                            Nagarjuna Sagar Rd, near Injapur 'X' Roads,<br>
+                            Hyderabad, Telangana 501510
+                        </p>
+
+                        <a
+                            href="https://maps.app.goo.gl/okD6pG95DuuvWSUw5"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="gold-button"
+                        >
+                            Open in Maps
+                        </a>
+            </article>
+
+            <article class="event-card reveal">
+              <span class="event-symbol">✦</span>
+              <p class="event-day">Sunday</p>
+              <h3>Reception</h3>
+              <p>August 28, 2026</p>
+              <p>7:00 PM</p>
+              
+              <hr />
+              <h3>ASR Convention & Resorts</h3> 
+              <p>near hayathnagar, Munganoor</p>
+              <a
+              href="https://maps.app.goo.gl/BbpKwAmk5K2UE5n2A"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="gold-button"
+          >
+              Open in Maps
+          </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section venue-section" id="venue">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker">Join us</p>
+            <h2>Wedding Venue</h2>
+            <div class="mini-ornament">✦</div>
+          </div>
+
+          <div class="venue-card reveal">
+            <div class="venue-copy">
+              <p class="venue-label">The celebration will take place at</p>
+              <h3 >VMR Convention Hall</h3>
+
+                        <p>
+                            Nagarjuna Sagar Rd, near Injapur 'X' Roads,<br>
+                            Hyderabad, Telangana 501510
+                        </p>
+
+                        <p class="venue-note">
+                            Lunch Follows
+                        </p>
+
+                        <a
+                            href="https://maps.app.goo.gl/okD6pG95DuuvWSUw5"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="gold-button"
+                        >
+                            Open in Maps
+                        </a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-seal">AA</div>
+      <p>Abhishek &amp; Alekya</p>
+      <span></span>
+      <small>We can’t wait to celebrate with you!</small>
+      <button id="replayIntro" type="button">Replay envelope</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
