@@ -445,3 +445,33 @@ blockquote { margin:12px 0 20px; font:italic 500 clamp(2rem,5vw,3.6rem)/1.2 var(
     max-width: none;
   }
 }
+
+.music-toggle {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 500;
+
+  width: 46px;
+  height: 46px;
+
+  border: 1px solid var(--gold-300);
+  border-radius: 50%;
+
+  color: var(--gold-100);
+  background: rgba(59, 4, 8, 0.88);
+
+  font-size: 1.15rem;
+
+  display: grid;
+  place-items: center;
+
+  backdrop-filter: blur(8px);
+
+  box-shadow:
+    0 8px 25px rgba(25, 0, 3, 0.28);
+}
+
+.music-toggle.muted {
+  opacity: 0.55;
+}
